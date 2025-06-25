@@ -1,0 +1,58 @@
+/* Top Navigation Bar */
+.topNav {
+    display: flex;
+    justify-content: flex-end; /* Align dropdown to the right */
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #151517;
+    color: #ffffff;
+}
+
+/* Category Dropdown */
+.topNav .category-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.topNav .dropdown-button {
+    background-color: #2A2A2E; /* Primary button background */
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.topNav .dropdown-button:hover {
+    background-color: #BB0056; /* Hover color */
+}
+
+.topNav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #151517;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px; /* Ensures a minimum width for content */
+    border-radius: 5px;
+    top: 48px; /* Adjust this value based on the height of the dropdown button */
+}
+
+.topNav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topNav .dropdown-content a:hover {
+    background-color: #514346; /* Darker tone on hover for links */
+}
+
+.topNav .dropdown-button:focus + .dropdown-content {
+    display: flex;
+    flex-direction: column; /* Display dropdown items in a column */
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  /* Specify font-weight and font-style if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Variables */
+:root {
+  --primary-color: var(--SkillSync-Red, #DE1B6A);
+  --secondary-color: #2ecc71;
+  /* Add more variables as needed */
+}
+
+/* Reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  /* Adjust default font, margin, and padding */
+}
+
+/* Global Styles */
+body {
+  /* Set default body styles */
+  background-color: #ffffff;
+  color: #ffffff;
+  /* Use variables for colors */
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Define heading styles */
+  font-family: 'Space Grotesk', sans-serif;
+  /* Use custom fonts if available */
+}
+
+p {
+  /* Define paragraph styles */
+  font-size: 16px;
+  line-height: 1.6;
+  /* Modify paragraph styles */
+}
+
+/* Themes */
+.light-theme {
+  /* Light theme styles */
+  --background-color: #ffffff;
+  --text-color: #333333;
+  /* Adjust colors for light theme */
+}
+
+.dark-theme {
+  /* Dark theme styles */
+  --background-color: #222222;
+  --text-color: #ffffff;
+  /* Adjust colors for dark theme */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+}

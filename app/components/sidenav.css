@@ -1,0 +1,100 @@
+.sideNav .drawer-header {
+    display: flex;
+    width: 336px;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+.sideNav .logo-overlay {
+    display: flex;
+    width: 132.135px;
+    height: 30px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.523px;
+    flex-shrink: 0;
+}
+
+.sideNav .company-icon {
+    display: flex;
+    width: 32px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sideNav .MuiPaper-root {
+    background-color:#151517 !important;
+}
+
+.sideNav .MuiListItem-root, .MuiListItemIcon-root, .MuiButtonBase-root {
+    color: #ffffff;
+}
+
+.sideNav .MuiListItem-root:hover {
+    border-radius: 30px;
+    background: #BB0056;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.sideNav .frame-1 {
+    display: flex;
+    flex-direction: column;
+}
+  
+
+.sideNav .frame-2 {
+    display: flex;
+    padding: 12px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-bottom: 1px solid #514346;
+}
+
+.sideNav .frame-3 {
+    display: flex;
+    width: 336px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.sideNav .frame-4 {
+    color: #A0A0AB;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.frame-5 {
+    display: flex;
+    padding: 4px 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.sideNav .frame-6 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sideNav .user-name {
+    color: var(--m-3-sys-dark-on-surface-variant, #D6C2C4);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.1px;
+}

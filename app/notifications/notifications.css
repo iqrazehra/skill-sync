@@ -1,0 +1,96 @@
+.home .header {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.home .header-content {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.home .header-text {
+    color: var(--Black, #151517);
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.home .header-sub-text {
+    color: var(--gray-500, #667085);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.home .page-body {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+.home .page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: black;
+}
+
+.home .page-sub-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.home .page-text {
+    color: var(--SkillSync-Red, #DE1B6A);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 40.541% */
+}
+
+.home .card {
+    color:black
+}
+
+/* notifications.css */
+
+.home .notification-row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff6f6f; /* Error red background color */
+    color: #ffffff; /* White text color */
+    border-radius: 5px;
+  }
+  
+.home .notification-message {
+    flex-grow: 1; /* Takes up remaining space in the row */
+  }
+  
+.home .notification-date {
+    margin-left: 10px; /* Adds space between message and date */
+  }
+  

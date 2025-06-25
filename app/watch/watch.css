@@ -1,0 +1,75 @@
+.watch .header {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.watch .header-content {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.watch .header-text {
+    color: var(--Black, #151517);
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.watch .header-sub-text {
+    color: var(--gray-500, #667085);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.watch .page-body {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+.watch .page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: black;
+}
+
+.watch .page-sub-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.watch .page-text {
+    color: var(--SkillSync-Red, #DE1B6A);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 40.541% */
+}
+
+.watch .card {
+    color:black
+}
